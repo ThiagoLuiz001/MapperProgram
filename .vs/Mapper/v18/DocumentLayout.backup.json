@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5EA002-3966-4C4D-9624-E4AC056E573C}|Mapper.Web\\Mapper.Web.csproj|c:\\users\\thiag\\source\\repos\\thiagoluiz001\\mapperprogram\\mapper.web\\wwwroot\\css\\input.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9E5EA002-3966-4C4D-9624-E4AC056E573C}|Mapper.Web\\Mapper.Web.csproj|solutionrelative:mapper.web\\wwwroot\\css\\input.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5EA002-3966-4C4D-9624-E4AC056E573C}|Mapper.Web\\Mapper.Web.csproj|c:\\users\\thiag\\source\\repos\\thiagoluiz001\\mapperprogram\\mapper.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E5EA002-3966-4C4D-9624-E4AC056E573C}|Mapper.Web\\Mapper.Web.csproj|solutionrelative:mapper.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|c:\\users\\thiag\\source\\repos\\thiagoluiz001\\mapperprogram\\mapper.infrastructure\\dao\\mappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|solutionrelative:mapper.infrastructure\\dao\\mappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6221AB1-840B-468B-BB37-AF51562853C4}|Mapper.Communication\\Mapper.Communication.csproj|c:\\users\\thiag\\source\\repos\\thiagoluiz001\\mapperprogram\\mapper.communication\\entities\\resentities.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E6221AB1-840B-468B-BB37-AF51562853C4}|Mapper.Communication\\Mapper.Communication.csproj|solutionrelative:mapper.communication\\entities\\resentities.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\users\\thiag\\source\\repos\\thiagoluiz001\\mapperprogram\\mapper.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\users\\thiag\\source\\repos\\thiagoluiz001\\mapperprogram\\mapper.domain\\entities\\abstractions\\absintdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\abstractions\\absintdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\users\\thiag\\source\\repos\\thiagoluiz001\\mapperprogram\\mapper.domain\\entities\\commons\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\commons\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\users\\thiag\\source\\repos\\thiagoluiz001\\mapperprogram\\mapper.domain\\entities\\abstractions\\absguiddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\abstractions\\absguiddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\users\\thiag\\source\\repos\\thiagoluiz001\\mapperprogram\\mapper.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "input.css",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Web\\wwwroot\\css\\input.css",
+              "RelativeDocumentMoniker": "Mapper.Web\\wwwroot\\css\\input.css",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Web\\wwwroot\\css\\input.css",
+              "RelativeToolTip": "Mapper.Web\\wwwroot\\css\\input.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-31T00:18:27.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Mapper.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Mapper.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-31T00:06:27.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResEntities.resx",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Communication\\Entities\\ResEntities.resx",
+              "RelativeDocumentMoniker": "Mapper.Communication\\Entities\\ResEntities.resx",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Communication\\Entities\\ResEntities.resx",
+              "RelativeToolTip": "Mapper.Communication\\Entities\\ResEntities.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-07-28T03:18:18.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Infrastructure\\DAO\\MapperContext.cs",
+              "RelativeDocumentMoniker": "Mapper.Infrastructure\\DAO\\MapperContext.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Infrastructure\\DAO\\MapperContext.cs",
+              "RelativeToolTip": "Mapper.Infrastructure\\DAO\\MapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T02:27:18.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Domain\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Domain\\Entities\\Client.cs",
+              "RelativeToolTip": "Mapper.Domain\\Entities\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:48:37.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AbsIntDAO.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Domain\\Entities\\Abstractions\\AbsIntDAO.cs",
+              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Abstractions\\AbsIntDAO.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Domain\\Entities\\Abstractions\\AbsIntDAO.cs",
+              "RelativeToolTip": "Mapper.Domain\\Entities\\Abstractions\\AbsIntDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:48:37.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AbsGuidDAO.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
+              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
+              "RelativeToolTip": "Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:48:37.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Domain\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Domain\\Entities\\Address.cs",
+              "RelativeToolTip": "Mapper.Domain\\Entities\\Address.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAD4vwkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:48:37.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Domain\\Entities\\Commons\\Person.cs",
+              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Commons\\Person.cs",
+              "ToolTip": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Domain\\Entities\\Commons\\Person.cs",
+              "RelativeToolTip": "Mapper.Domain\\Entities\\Commons\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:48:37.91Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
