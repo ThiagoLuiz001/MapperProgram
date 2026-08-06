@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mapper.Communication\Mapper.Communication.csproj" />
+    <ProjectReference Include="..\Mapper.Exception\Mapper.Exception.csproj" />
+  </ItemGroup>
+
 </Project>
