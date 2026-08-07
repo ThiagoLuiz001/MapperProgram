@@ -20,6 +20,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>ResEntities.resx</DependentUpon>
     </Compile>
+    <Compile Update="Errors\ResError.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ResError.resx</DependentUpon>
+    </Compile>
     <Compile Update="Exceptions\ResExceptions.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -31,6 +36,10 @@
     <EmbeddedResource Update="Entities\ResEntities.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ResEntities.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Errors\ResError.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResError.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Exceptions\ResExceptions.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

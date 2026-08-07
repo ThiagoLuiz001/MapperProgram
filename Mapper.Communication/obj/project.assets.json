@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj",
+      "projectUniqueName": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj",
       "projectName": "Mapper.Communication",
-      "projectPath": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj",
+      "projectPath": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj",
       "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Communication\\obj\\",
+      "outputPath": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Communication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

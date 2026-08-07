@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BT6gdHH7Y+s=",
+  "dgSpecHash": "Xs7y9XE2pOI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiag\\source\\repos\\ThiagoLuiz001\\MapperProgram\\Mapper.Application\\Mapper.Application.csproj",
+  "projectFilePath": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Application\\Mapper.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiag\\.nuget\\packages\\closedxml\\0.105.1\\closedxml.0.105.1.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\closedxml.parser\\2.0.0\\closedxml.parser.2.0.0.nupkg.sha512",

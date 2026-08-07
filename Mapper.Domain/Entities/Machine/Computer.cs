@@ -8,6 +8,10 @@ namespace Mapper.Domain.Entities.Machine
 {
     public class Computer : AbsIntDAO
     {
+        public Guid? EquipamentId { get; set; }
+        public Equipament? Equipament { get; set; }
+
+
         public ETypeComputer Type { get; set; }
         public List<Motherboard>? Motherboards { get; set; } 
         public List<CPU>? CPUs { get; set; } 
@@ -20,8 +24,12 @@ namespace Mapper.Domain.Entities.Machine
         public string MACAddress { get; set; } = string.Empty;
         public string? Model { get; set; }
         public string? Maker { get; set; }
-        public int IdNetwork { get; set; }
-        public IP? Network { get; set; }
+
+
+        public int IpId { get; set; }
+        public IP? Ip { get; set; }
+
+
         public string? Observations { get; set; }
 
 
@@ -49,7 +57,7 @@ namespace Mapper.Domain.Entities.Machine
             return (decimal)cost.Sum();
         }
 
-        public string About() => String.Format(ResEntities.ABOUT_COMPUTER, Type.ToString(), MachineName, OperatinalSystem, MACAddress, getHardware(), Network!.About());
+        public string About() => String.Format(ResEntities.ABOUT_COMPUTER, Type.ToString(), MachineName, OperatinalSystem, MACAddress, getHardware(), Ip!.About());
 
         private string getHardware()
         {

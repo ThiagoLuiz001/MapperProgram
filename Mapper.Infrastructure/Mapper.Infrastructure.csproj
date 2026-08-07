@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DAO\Repository\" />
     <Folder Include="Files\" />
     <Folder Include="Reports\" />
   </ItemGroup>
@@ -18,7 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Mapper.Communication\Mapper.Communication.csproj" />
     <ProjectReference Include="..\Mapper.Domain\Mapper.Domain.csproj" />
+    <ProjectReference Include="..\Mapper.Exception\Mapper.Exception.csproj" />
   </ItemGroup>
 
 </Project>

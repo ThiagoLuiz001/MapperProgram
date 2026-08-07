@@ -61,11 +61,74 @@ namespace Mapper.Communication.Exceptions {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Não foi possível {0} na tabela {1}, pois a condição inserida resultou a 0 itens encontrados..
+        /// </summary>
+        public static string CONDICAO_NAO_ATENDIDA {
+            get {
+                return ResourceManager.GetString("CONDICAO_NAO_ATENDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Deletar.
+        /// </summary>
+        public static string DELETE {
+            get {
+                return ResourceManager.GetString("DELETE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Não foi possível {0} o Id {1} na tabela {2}, pois ocorreu um erro. \n MENSAGEM DO ERRO: \n {3}.
+        /// </summary>
+        public static string ERRO_DE_CONCORRENCIA {
+            get {
+                return ResourceManager.GetString("ERRO_DE_CONCORRENCIA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a O Id {0} não foi encontrado na tabela {1}..
+        /// </summary>
+        public static string ID_NAO_ENCONTRADO {
+            get {
+                return ResourceManager.GetString("ID_NAO_ENCONTRADO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a O IP estático não pode ter valores nulos! Por favor preencha os dados..
         /// </summary>
         public static string IP_ESTATICO_NOT_NULL {
             get {
                 return ResourceManager.GetString("IP_ESTATICO_NOT_NULL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a {0}º item com id {1} da tabela {2} foi deletado com sucesso! .
+        /// </summary>
+        public static string ITEM_DELETADO {
+            get {
+                return ResourceManager.GetString("ITEM_DELETADO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a [0}º item com id {1} da tabela {2} não foi deletado, pois ocorreu um erro.\n MENSSAGEM: {3}.
+        /// </summary>
+        public static string ITEM_NAO_DELETADO {
+            get {
+                return ResourceManager.GetString("ITEM_NAO_DELETADO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Atualizar.
+        /// </summary>
+        public static string UPDATE {
+            get {
+                return ResourceManager.GetString("UPDATE", resourceCulture);
             }
         }
     }

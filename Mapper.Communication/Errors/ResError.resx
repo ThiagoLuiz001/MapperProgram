@@ -117,28 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CONDICAO_NAO_ATENDIDA" xml:space="preserve">
-    <value>Não foi possível {0} na tabela {1}, pois a condição inserida resultou a 0 itens encontrados.</value>
+  <data name="CAMPO_OBRIGATORIO" xml:space="preserve">
+    <value>O campo {0} é obrigatório o preenchimento de informação!</value>
   </data>
-  <data name="DELETE" xml:space="preserve">
-    <value>Deletar</value>
-  </data>
-  <data name="ERRO_DE_CONCORRENCIA" xml:space="preserve">
-    <value>Não foi possível {0} o Id {1} na tabela {2}, pois ocorreu um erro. \n MENSAGEM DO ERRO: \n {3}</value>
-  </data>
-  <data name="ID_NAO_ENCONTRADO" xml:space="preserve">
-    <value>O Id {0} não foi encontrado na tabela {1}.</value>
-  </data>
-  <data name="IP_ESTATICO_NOT_NULL" xml:space="preserve">
-    <value>O IP estático não pode ter valores nulos! Por favor preencha os dados.</value>
-  </data>
-  <data name="ITEM_DELETADO" xml:space="preserve">
-    <value>{0}º item com id {1} da tabela {2} foi deletado com sucesso! </value>
-  </data>
-  <data name="ITEM_NAO_DELETADO" xml:space="preserve">
-    <value>[0}º item com id {1} da tabela {2} não foi deletado, pois ocorreu um erro.\n MENSSAGEM: {3}</value>
-  </data>
-  <data name="UPDATE" xml:space="preserve">
-    <value>Atualizar</value>
+  <data name="CAMPO_TAMANHO_MAXIMO" xml:space="preserve">
+    <value>{0} tem que estar entre {2} e {1} caracteres.</value>
   </data>
 </root>

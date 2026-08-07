@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mapper.Exception")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfc292e57e1d630a0804b38f0a277a42c82a159e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07277497262dcfa82373a18682d6ff28ead5e9a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mapper.Exception")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mapper.Exception")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
