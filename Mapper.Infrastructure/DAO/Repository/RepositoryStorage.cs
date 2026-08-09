@@ -4,7 +4,7 @@ using Mapper.Domain.Interfaces;
 using Mapper.Exception;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
-using System.Text;
+
 
 
 namespace Mapper.Infrastructure.DAO.Repository
@@ -43,7 +43,7 @@ namespace Mapper.Infrastructure.DAO.Repository
         {
             try
             {
-                var obj = await ExistByConditionAsync(x => x.Id == id, ct) ? await GetByIdAsync(id, ct) : throw new NotFoundException(String.Format(ResExceptions.ID_NAO_ENCONTRADO, id, nameof(_context.Storages)));
+                var obj = await GetByIdAsync(id, ct) ?? throw new NotFoundException(String.Format(ResExceptions.ID_NAO_ENCONTRADO, id, nameof(_context.Storages)));
                 _context.Storages.Remove(obj!);
                 await _context.SaveChangesAsync(ct);
             }
@@ -76,32 +76,53 @@ namespace Mapper.Infrastructure.DAO.Repository
 
         public async Task<List<Storage>?> GetAllAsync(CancellationToken ct = default)
         {
-            return await _context.Storages.ToListAsync(ct);
+            return await _context.Storages.Include(x=>x.Computer).ToListAsync(ct);
         }
 
         public async Task<Storage?> GetByConditionAsync(Expression<Func<Storage, bool>> predicate, CancellationToken ct = default)
         {
-            return await _context.Storages.FirstOrDefaultAsync(predicate,ct);
+            return await _context.Storages.Include(x => x.Computer).FirstOrDefaultAsync(predicate,ct);
         }
 
         public async Task<Storage?> GetByIdAsync(int id, CancellationToken ct = default)
         {
-            return await _context.Storages.FindAsync(id, ct);
+            return await _context.Storages.Include(c=>c.Computer).FirstOrDefaultAsync(x => x.Id == id, ct);
         }
 
         public async Task<List<Storage>?> GetListByConditionAsync(Expression<Func<Storage, bool>> predicate, CancellationToken ct = default)
         {
-            return await _context.Storages.Where(predicate).ToListAsync(ct);
+            return await _context.Storages.Where(predicate).Include(x => x.Computer).ToListAsync(ct);
         }
 
-        public Task UpdateAsync(Storage entity, CancellationToken ct = default)
+        public async Task UpdateAsync(Storage entity, CancellationToken ct = default)
         {
-            throw new NotImplementedException();
+            if (!await ContainsByConditionAsync(entity, ct))
+                throw new NotFoundException(String.Format(ResExceptions.ID_NAO_ENCONTRADO, entity.Id, nameof(_context.Storages)));
+            try
+            {
+                _context.Storages.Update(entity);
+                await _context.SaveChangesAsync(ct);
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                throw new DbConCurrencyException(String.Format(ResExceptions.ERRO_DE_CONCORRENCIA, ResExceptions.UPDATE, entity.Id, nameof(_context.Storages), ex.Message));
+            }
         }
 
-        public Task UpdateListAsync(List<Storage> entities, CancellationToken ct = default)
+        public async Task UpdateListAsync(List<Storage> entities, CancellationToken ct = default)
         {
-            throw new NotImplementedException();
+            var list = await _context.Storages.Where(x => entities.Select(e => e.Id).Contains(x.Id)).ToListAsync(ct);
+            if (list.Count != entities.Count)
+                throw new NotFoundException(String.Format(ResExceptions.ID_NAO_ENCONTRADO, "-", nameof(_context.Storages)));
+            try
+            {
+                _context.Storages.UpdateRange(entities);
+                await _context.SaveChangesAsync(ct);
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                throw new DbConCurrencyException(String.Format(ResExceptions.ERRO_DE_CONCORRENCIA, ResExceptions.UPDATE, "-", nameof(_context.Storages), ex.Message));
+            }
         }
 
 

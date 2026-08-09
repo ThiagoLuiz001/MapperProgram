@@ -17,6 +17,7 @@ namespace Mapper.Infrastructure.DAO
         public DbSet<Computer> Computers { get; set; }
         public DbSet<Motherboard> Motherboards { get; set; }
         public DbSet<CPU> CPUs { get; set; }
+        public DbSet<GPU> GPUs { get; set; }
         public DbSet<Components> ComputerComponets { get; set; }
         public DbSet<Storage> Storages { get; set; }
         public DbSet<IP> IPs { get; set; }

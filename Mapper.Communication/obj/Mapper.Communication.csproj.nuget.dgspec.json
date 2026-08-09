@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj": {}
+    "C:\\Users\\Thiago Luiz\\Desktop\\Projeto Mapper\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj": {
+    "C:\\Users\\Thiago Luiz\\Desktop\\Projeto Mapper\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj",
+        "projectUniqueName": "C:\\Users\\Thiago Luiz\\Desktop\\Projeto Mapper\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj",
         "projectName": "Mapper.Communication",
-        "projectPath": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj",
-        "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Communication\\obj\\",
+        "projectPath": "C:\\Users\\Thiago Luiz\\Desktop\\Projeto Mapper\\MapperProgram\\Mapper.Communication\\Mapper.Communication.csproj",
+        "packagesPath": "C:\\Users\\Thiago Luiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thiago Luiz\\Desktop\\Projeto Mapper\\MapperProgram\\Mapper.Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thiago Luiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,11 +26,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
-            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -46,11 +45,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
-          "framework": "net9.0",
           "targetAlias": "net9.0",
           "imports": [
             "net461",
@@ -68,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.110/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

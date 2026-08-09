@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Meu Portif\u00F3lio\\C#\\Projeto Pessoal\\Mapper\\",
+  "WorkspaceRootPath": "C:\\Users\\Thiago Luiz\\Desktop\\Projeto Mapper\\MapperProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\meu portif\u00F3lio\\c#\\projeto pessoal\\mapper\\mapper.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|c:\\users\\thiago luiz\\desktop\\projeto mapper\\mapperprogram\\mapper.infrastructure\\dao\\repository\\repositorycpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|solutionrelative:mapper.infrastructure\\dao\\repository\\repositorycpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\meu portif\u00F3lio\\c#\\projeto pessoal\\mapper\\mapper.domain\\entities\\commons\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\commons\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\meu portif\u00F3lio\\c#\\projeto pessoal\\mapper\\mapper.domain\\entities\\abstractions\\absguiddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\users\\thiago luiz\\desktop\\projeto mapper\\mapperprogram\\mapper.domain\\entities\\abstractions\\absguiddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\abstractions\\absguiddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\meu portif\u00F3lio\\c#\\projeto pessoal\\mapper\\mapper.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\meu portif\u00F3lio\\c#\\projeto pessoal\\mapper\\mapper.domain\\entities\\abstractions\\absintdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\abstractions\\absintdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,66 +55,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Meu Portif\u00F3lio\\C#\\Projeto Pessoal\\Mapper\\Mapper.Domain\\Entities\\Client.cs",
-              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Client.cs",
-              "ToolTip": "C:\\Meu Portif\u00F3lio\\C#\\Projeto Pessoal\\Mapper\\Mapper.Domain\\Entities\\Client.cs",
-              "RelativeToolTip": "Mapper.Domain\\Entities\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "RepositoryCPU.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago Luiz\\Desktop\\Projeto Mapper\\MapperProgram\\Mapper.Infrastructure\\DAO\\Repository\\RepositoryCPU.cs",
+              "RelativeDocumentMoniker": "Mapper.Infrastructure\\DAO\\Repository\\RepositoryCPU.cs",
+              "ToolTip": "C:\\Users\\Thiago Luiz\\Desktop\\Projeto Mapper\\MapperProgram\\Mapper.Infrastructure\\DAO\\Repository\\RepositoryCPU.cs",
+              "RelativeToolTip": "Mapper.Infrastructure\\DAO\\Repository\\RepositoryCPU.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwHAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T15:43:09.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AbsIntDAO.cs",
-              "DocumentMoniker": "C:\\Meu Portif\u00F3lio\\C#\\Projeto Pessoal\\Mapper\\Mapper.Domain\\Entities\\Abstractions\\AbsIntDAO.cs",
-              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Abstractions\\AbsIntDAO.cs",
-              "ToolTip": "C:\\Meu Portif\u00F3lio\\C#\\Projeto Pessoal\\Mapper\\Mapper.Domain\\Entities\\Abstractions\\AbsIntDAO.cs",
-              "RelativeToolTip": "Mapper.Domain\\Entities\\Abstractions\\AbsIntDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T15:37:41.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AbsGuidDAO.cs",
-              "DocumentMoniker": "C:\\Meu Portif\u00F3lio\\C#\\Projeto Pessoal\\Mapper\\Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
-              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
-              "ToolTip": "C:\\Meu Portif\u00F3lio\\C#\\Projeto Pessoal\\Mapper\\Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
-              "RelativeToolTip": "Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T15:34:35.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Meu Portif\u00F3lio\\C#\\Projeto Pessoal\\Mapper\\Mapper.Domain\\Entities\\Address.cs",
-              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Address.cs",
-              "ToolTip": "C:\\Meu Portif\u00F3lio\\C#\\Projeto Pessoal\\Mapper\\Mapper.Domain\\Entities\\Address.cs",
-              "RelativeToolTip": "Mapper.Domain\\Entities\\Address.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAD4vwkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T15:23:54.383Z",
+              "WhenOpened": "2026-08-08T18:43:07.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Meu Portif\u00F3lio\\C#\\Projeto Pessoal\\Mapper\\Mapper.Domain\\Entities\\Commons\\Person.cs",
-              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Commons\\Person.cs",
-              "ToolTip": "C:\\Meu Portif\u00F3lio\\C#\\Projeto Pessoal\\Mapper\\Mapper.Domain\\Entities\\Commons\\Person.cs",
-              "RelativeToolTip": "Mapper.Domain\\Entities\\Commons\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Title": "AbsGuidDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago Luiz\\Desktop\\Projeto Mapper\\MapperProgram\\Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
+              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
+              "ToolTip": "C:\\Users\\Thiago Luiz\\Desktop\\Projeto Mapper\\MapperProgram\\Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
+              "RelativeToolTip": "Mapper.Domain\\Entities\\Abstractions\\AbsGuidDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T15:04:37.469Z",
+              "WhenOpened": "2026-07-27T15:34:35.719Z",
               "EditorCaption": ""
             }
           ]

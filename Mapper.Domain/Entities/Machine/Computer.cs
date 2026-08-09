@@ -13,12 +13,12 @@ namespace Mapper.Domain.Entities.Machine
 
 
         public ETypeComputer Type { get; set; }
-        public List<Motherboard>? Motherboards { get; set; } 
-        public List<CPU>? CPUs { get; set; } 
-        public List<RAM>? Memory { get; set; }
-        public List<Components>? Components { get; set; }
-        public List<GPU>? GPUs { get; set; } 
-        public List<Storage>? Storages { get; set; }
+        public ICollection<Motherboard>? Motherboards { get; set; } 
+        public ICollection<CPU>? CPUs { get; set; } 
+        public ICollection<RAM>? Memory { get; set; }
+        public ICollection<Components>? Components { get; set; }
+        public ICollection<GPU>? GPUs { get; set; } 
+        public ICollection<Storage>? Storages { get; set; }
         public string OperatinalSystem { get; set; } = string.Empty;
         public string MachineName { get; set; } = string.Empty;
         public string MACAddress { get; set; } = string.Empty;
