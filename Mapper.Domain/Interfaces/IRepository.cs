@@ -7,7 +7,7 @@ namespace Mapper.Domain.Interfaces
     public interface IRepository<T,K>
     {
         Task<bool> ExistByConditionAsync(Expression<Func<T, bool>> predicate, CancellationToken ct = default);
-        Task<bool> ContainsByConditionAsync(T entity, CancellationToken ct = default);
+        Task<bool> ContainsByEntityAsync(T entity, CancellationToken ct = default);
         Task<int> CountByConditionAsync(Expression<Func<T, bool>> predicate, CancellationToken ct = default);
         Task CreateAsync(T entity, CancellationToken ct = default);
         Task CreateListAsync(List<T> entities, CancellationToken ct = default);

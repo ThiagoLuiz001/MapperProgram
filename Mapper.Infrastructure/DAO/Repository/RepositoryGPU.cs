@@ -17,7 +17,7 @@ namespace Mapper.Infrastructure.DAO.Repository
             _context = context;
         }
 
-        public async Task<bool> ContainsByConditionAsync(GPU entity, CancellationToken ct = default)
+        public async Task<bool> ContainsByEntityAsync(GPU entity, CancellationToken ct = default)
         {
             return await _context.GPUs.ContainsAsync(entity, ct);
         }

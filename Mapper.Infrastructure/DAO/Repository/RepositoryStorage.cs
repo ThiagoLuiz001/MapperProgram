@@ -17,7 +17,7 @@ namespace Mapper.Infrastructure.DAO.Repository
             _context = context;
         }
 
-        public async Task<bool> ContainsByConditionAsync(Storage entity, CancellationToken ct = default)
+        public async Task<bool> ContainsByEntityAsync(Storage entity, CancellationToken ct = default)
         {
             return await _context.Storages.ContainsAsync(entity,ct);
         }
@@ -96,7 +96,7 @@ namespace Mapper.Infrastructure.DAO.Repository
 
         public async Task UpdateAsync(Storage entity, CancellationToken ct = default)
         {
-            if (!await ContainsByConditionAsync(entity, ct))
+            if (!await ContainsByEntityAsync(entity, ct))
                 throw new NotFoundException(String.Format(ResExceptions.ID_NAO_ENCONTRADO, entity.Id, nameof(_context.Storages)));
             try
             {

@@ -11,7 +11,7 @@ namespace Mapper.Infrastructure.DAO.Repository
     {
         private readonly MapperContext _context;
         public RepositoryComputer(MapperContext context) => _context = context;
-        public async Task<bool> ContainsByConditionAsync(Computer entity, CancellationToken ct = default)
+        public async Task<bool> ContainsByEntityAsync(Computer entity, CancellationToken ct = default)
         {
             return await _context.Computers.ContainsAsync(entity, ct);
         }

@@ -15,7 +15,7 @@ namespace Mapper.Infrastructure.DAO.Repository
         {
             _context = context;
         }
-        public async Task<bool> ContainsByConditionAsync(CPU entity, CancellationToken ct = default)
+        public async Task<bool> ContainsByEntityAsync(CPU entity, CancellationToken ct = default)
         {
             return await _context.CPUs.ContainsAsync(entity, ct);
         }
@@ -39,7 +39,8 @@ namespace Mapper.Infrastructure.DAO.Repository
 
         public async Task DeleteAsyncById(int id, CancellationToken ct = default)
         {
-            var obj = await GetByIdAsync(id,ct) ?? throw new NotFoundException(String.Format(ResExceptions.ID_NAO_ENCONTRADO, id, nameof(_context.CPUs))); try
+            var obj = await GetByIdAsync(id,ct) ??
+                throw new NotFoundException(String.Format(ResExceptions.ID_NAO_ENCONTRADO, id, nameof(_context.CPUs))); try
             {
                 _context.Remove(obj);
                 await _context.SaveChangesAsync(ct);
