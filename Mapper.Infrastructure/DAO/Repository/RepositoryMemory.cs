@@ -89,14 +89,35 @@ namespace Mapper.Infrastructure.DAO.Repository
             return await _context.Memorys.Where(predicate).ToListAsync(ct);
         }
 
-        public Task UpdateAsync(RAM entity, CancellationToken ct = default)
+        public async Task UpdateAsync(RAM entity, CancellationToken ct = default)
         {
-            throw new NotImplementedException();
+            if(!await ContainsByEntityAsync(entity, ct))
+                throw new NotFoundException(String.Format(ResExceptions.ID_NAO_ENCONTRADO, entity.Id, nameof(_context.Memorys)));
+            try
+            {
+                _context.Memorys.Update(entity);
+                await _context.SaveChangesAsync(ct);
+            }
+            catch(DbUpdateConcurrencyException ex)
+            {
+                throw new DbConCurrencyException(String.Format(ResExceptions.ERRO_DE_CONCORRENCIA, ResExceptions.UPDATE, entity.Id, nameof(_context.Memorys), ex.Message));
+            }
         }
 
-        public Task UpdateListAsync(List<RAM> entities, CancellationToken ct = default)
+        public async Task UpdateListAsync(List<RAM> entities, CancellationToken ct = default)
         {
-            throw new NotImplementedException();
+            var list = await GetListByConditionAsync(x => entities.Select(e => e.Id).Contains(x.Id), ct);
+            if(list != null || list.Count != entities.Count)
+                throw new NotFoundException(String.Format(ResExceptions.ID_NAO_ENCONTRADO, "-", nameof(_context.Storages)));
+            try
+            {
+                _context.UpdateRange(entities);
+                await _context.SaveChangesAsync(ct);
+            }
+            catch(DbUpdateConcurrencyException ex)
+            {
+                throw new DbConCurrencyException(String.Format(ResExceptions.ERRO_DE_CONCORRENCIA, ResExceptions.UPDATE, '-', nameof(_context.Memorys), ex.Message));
+            }
         }
     }
 }
