@@ -7,20 +7,32 @@
       "RelativeMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|solutionrelative:mapper.infrastructure\\dao\\maps\\storagemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.infrastructure\\dao\\repository\\repositorymemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|solutionrelative:mapper.infrastructure\\dao\\repository\\repositorymemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.infrastructure\\dao\\repository\\repositoryip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|solutionrelative:mapper.infrastructure\\dao\\repository\\repositoryip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.infrastructure\\dao\\repository\\repositorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|solutionrelative:mapper.infrastructure\\dao\\repository\\repositorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.domain\\entities\\machine\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\machine\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6221AB1-840B-468B-BB37-AF51562853C4}|Mapper.Communication\\Mapper.Communication.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.communication\\mapper.communication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{E6221AB1-840B-468B-BB37-AF51562853C4}|Mapper.Communication\\Mapper.Communication.csproj|solutionrelative:mapper.communication\\mapper.communication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6221AB1-840B-468B-BB37-AF51562853C4}|Mapper.Communication\\Mapper.Communication.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.communication\\exceptions\\resexceptions.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{E6221AB1-840B-468B-BB37-AF51562853C4}|Mapper.Communication\\Mapper.Communication.csproj|solutionrelative:mapper.communication\\exceptions\\resexceptions.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.domain\\entities\\machine\\peripheral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\machine\\peripheral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.infrastructure\\dao\\repository\\repositorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|solutionrelative:mapper.infrastructure\\dao\\repository\\repositorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.infrastructure\\dao\\repository\\repositorymemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|solutionrelative:mapper.infrastructure\\dao\\repository\\repositorymemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.domain\\entities\\machine\\computerparts\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\machine\\computerparts\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6221AB1-840B-468B-BB37-AF51562853C4}|Mapper.Communication\\Mapper.Communication.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.communication\\entities\\resentities.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
@@ -31,12 +43,8 @@
       "RelativeMoniker": "D:0:0:{D51FEA5B-F672-4F3D-8B22-79D5F5BBA50F}|Mapper.Infrastructure\\Mapper.Infrastructure.csproj|solutionrelative:mapper.infrastructure\\dao\\mappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.domain\\entities\\machine\\peripheral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\machine\\peripheral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.domain\\entities\\machine\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB6AE52-21E5-4D75-8A30-E2C1737F3B18}|Mapper.Domain\\Mapper.Domain.csproj|solutionrelative:mapper.domain\\entities\\machine\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6221AB1-840B-468B-BB37-AF51562853C4}|Mapper.Communication\\Mapper.Communication.csproj|c:\\users\\thiag\\desktop\\aqui\\mapperprogram\\mapper.communication\\exceptions\\resexceptions.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E6221AB1-840B-468B-BB37-AF51562853C4}|Mapper.Communication\\Mapper.Communication.csproj|solutionrelative:mapper.communication\\exceptions\\resexceptions.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,20 +82,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepositoryIP.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Infrastructure\\DAO\\Repository\\RepositoryIP.cs",
+              "RelativeDocumentMoniker": "Mapper.Infrastructure\\DAO\\Repository\\RepositoryIP.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Infrastructure\\DAO\\Repository\\RepositoryIP.cs",
+              "RelativeToolTip": "Mapper.Infrastructure\\DAO\\Repository\\RepositoryIP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T16:37:58.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Storage.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Domain\\Entities\\Machine\\ComputerParts\\Storage.cs",
+              "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Machine\\ComputerParts\\Storage.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Domain\\Entities\\Machine\\ComputerParts\\Storage.cs",
+              "RelativeToolTip": "Mapper.Domain\\Entities\\Machine\\ComputerParts\\Storage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T16:18:00.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StorageMap.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Infrastructure\\DAO\\Maps\\StorageMap.cs",
               "RelativeDocumentMoniker": "Mapper.Infrastructure\\DAO\\Maps\\StorageMap.cs",
               "ToolTip": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Infrastructure\\DAO\\Maps\\StorageMap.cs",
               "RelativeToolTip": "Mapper.Infrastructure\\DAO\\Maps\\StorageMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-10T01:35:27.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "RepositoryMemory.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Infrastructure\\DAO\\Repository\\RepositoryMemory.cs",
               "RelativeDocumentMoniker": "Mapper.Infrastructure\\DAO\\Repository\\RepositoryMemory.cs",
@@ -100,20 +134,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "RepositoryStorage.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Infrastructure\\DAO\\Repository\\RepositoryStorage.cs",
               "RelativeDocumentMoniker": "Mapper.Infrastructure\\DAO\\Repository\\RepositoryStorage.cs",
               "ToolTip": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Infrastructure\\DAO\\Repository\\RepositoryStorage.cs",
               "RelativeToolTip": "Mapper.Infrastructure\\DAO\\Repository\\RepositoryStorage.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAA7wHMAAAB8AAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAkwHMAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-07T15:46:47.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Peripheral.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Domain\\Entities\\Machine\\Peripheral.cs",
               "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Machine\\Peripheral.cs",
@@ -121,7 +155,8 @@
               "RelativeToolTip": "Mapper.Domain\\Entities\\Machine\\Peripheral.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T15:46:46.273Z"
+              "WhenOpened": "2026-08-07T15:46:46.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -138,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Computer.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Domain\\Entities\\Machine\\Computer.cs",
               "RelativeDocumentMoniker": "Mapper.Domain\\Entities\\Machine\\Computer.cs",
@@ -146,7 +181,8 @@
               "RelativeToolTip": "Mapper.Domain\\Entities\\Machine\\Computer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T01:49:02.028Z"
+              "WhenOpened": "2026-08-07T01:49:02.028Z",
+              "EditorCaption": ""
             }
           ]
         }
@@ -167,22 +203,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ResEntities.resx",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Communication\\Entities\\ResEntities.resx",
               "RelativeDocumentMoniker": "Mapper.Communication\\Entities\\ResEntities.resx",
               "ToolTip": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Communication\\Entities\\ResEntities.resx",
               "RelativeToolTip": "Mapper.Communication\\Entities\\ResEntities.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-08-05T17:25:11.086Z"
+              "WhenOpened": "2026-08-05T17:25:11.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "MapperContext.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Infrastructure\\DAO\\MapperContext.cs",
               "RelativeDocumentMoniker": "Mapper.Infrastructure\\DAO\\MapperContext.cs",
@@ -190,11 +227,12 @@
               "RelativeToolTip": "Mapper.Infrastructure\\DAO\\MapperContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T17:54:23.739Z"
+              "WhenOpened": "2026-08-05T17:54:23.739Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "ResExceptions.resx",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\aqui\\MapperProgram\\Mapper.Communication\\Exceptions\\ResExceptions.resx",
               "RelativeDocumentMoniker": "Mapper.Communication\\Exceptions\\ResExceptions.resx",

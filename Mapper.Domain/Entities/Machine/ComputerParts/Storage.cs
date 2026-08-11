@@ -10,6 +10,7 @@ namespace Mapper.Domain.Entities.Machine.ComputerParts
     {
 
         public EStorage Type { get; set; }
+        public string Name { get; set; } = string.Empty;
         public int Capacity { get; set; }
         public double Occupied { get; set; }
 
